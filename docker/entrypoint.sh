@@ -12,14 +12,14 @@ CHATGPT_ON_WECHAT_EXEC=${CHATGPT_ON_WECHAT_EXEC:-""}
 # if you have not defined environment variables, set them below
 # export OPEN_AI_API_KEY=${OPEN_AI_API_KEY:-'YOUR API KEY'}
 # export OPEN_AI_PROXY=${OPEN_AI_PROXY:-""}
-# export SINGLE_CHAT_PREFIX=${SINGLE_CHAT_PREFIX:-'["bot", "@bot"]'}
-# export SINGLE_CHAT_REPLY_PREFIX=${SINGLE_CHAT_REPLY_PREFIX:-'"[bot] "'}
-# export GROUP_CHAT_PREFIX=${GROUP_CHAT_PREFIX:-'["@bot"]'}
-# export GROUP_NAME_WHITE_LIST=${GROUP_NAME_WHITE_LIST:-'["ChatGPT测试群", "ChatGPT测试群2"]'}
-# export IMAGE_CREATE_PREFIX=${IMAGE_CREATE_PREFIX:-'["画", "看", "找"]'}
+# export SINGLE_CHAT_PREFIX=${SINGLE_CHAT_PREFIX:-'[""]'}
+# export SINGLE_CHAT_REPLY_PREFIX=${SINGLE_CHAT_REPLY_PREFIX:-'""'}
+# export GROUP_CHAT_PREFIX=${GROUP_CHAT_PREFIX:-'["@AI助理Sweety"]'}
+# export GROUP_NAME_WHITE_LIST=${GROUP_NAME_WHITE_LIST:-'["ALL_GROUP"]'}
+# export IMAGE_CREATE_PREFIX=${IMAGE_CREATE_PREFIX:-'["$mj"]'}
 # export CONVERSATION_MAX_TOKENS=${CONVERSATION_MAX_TOKENS:-"1000"}
-# export SPEECH_RECOGNITION=${SPEECH_RECOGNITION:-"False"}
-# export CHARACTER_DESC=${CHARACTER_DESC:-"你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。"}
+# export SPEECH_RECOGNITION=${SPEECH_RECOGNITION:-"True"}
+# export CHARACTER_DESC=${CHARACTER_DESC:-"你是狼哥AI助手Sweety, 一个由狼哥和OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。"}
 # export EXPIRES_IN_SECONDS=${EXPIRES_IN_SECONDS:-"3600"}
 
 # CHATGPT_ON_WECHAT_PREFIX is empty, use /app
